@@ -1,8 +1,8 @@
-<img width="432" height="20" alt="image" src="https://github.com/user-attachments/assets/842f5b40-23a4-4480-a2d2-355d45f5489d" /><img width="432" height="33" alt="image" src="https://github.com/user-attachments/assets/7104a1a6-ebaa-48f4-86a8-9f5fbeb432b6" />---
+---
 permalink: /
-title: "Hello there, I'm Tong!"
+title: "👋Hello there, I'm Tong!"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---

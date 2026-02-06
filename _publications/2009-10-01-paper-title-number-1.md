@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Love in a Transient Sexual Field: Female Chinese International Students’ Racialised Desire on Mobile Dating Applications.<img width="432" height="33" alt="image" src="https://github.com/user-attachments/assets/04a1ec4e-2b53-41f2-8b78-86d79c1e5e1b" />
+"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/datingpreference-paper-title-number-1
+excerpt: 'Race has been documented as an imperative criterion in partner selection among migrants. However, most existing studies on this issue focused on second-generation migrant groups and paid little attention to how race governs transient migrants’ partner selection. This study thus examines UK-based female Chinese international students’ racial preferences in partnering on mobile dating applications (MDAs) to add a transient dimension to the literature. Drawing on Gomes’s concept of transience and the sexual field framework proposed by Green, I argue that Chinese international students are situated in a transient sexual field, a subfield of the broader UK sexual field. Semi-structured interviews were conducted with 18 female Chinese international students studying at 12 UK universities who use MDAs to date people of the opposite sex. The findings suggested three reasons contributing to participants’ racialised desire: (1) persistent Chinese traditional norms and patriarchy; (2) uncertainties and opportunities of transient migration; and (3) pre-existing racial stereotypes and the racial hierarchy in the UK. The findings offer insights into how Chinese traditional culture, the transient migrant status, and racial stereotypes are interwoven to influence Chinese international students’ partner selection in the UK.'
+date: 2025-05-15
+venue: 'Sociological Research Online'
+paperurl: 'https://academicpages.github.io/files/paper1.pdf](https://journals.sagepub.com/doi/10.1177/13607804251320487'
+citation: 'Meng, T. (2025). Love in a Transient Sexual Field: Female Chinese International Students’ Racialised Desire on Mobile Dating Applications. _Sociological Research Online_, 0(0).'
 ---
+
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

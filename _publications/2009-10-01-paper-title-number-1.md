@@ -1,6 +1,5 @@
 ---
-title: "Love in a Transient Sexual Field: Female Chinese International Students’ Racialised Desire on Mobile Dating Applications.<img width="432" height="33" alt="image" src="https://github.com/user-attachments/assets/04a1ec4e-2b53-41f2-8b78-86d79c1e5e1b" />
-"
+title: "Love in a Transient Sexual Field: Female Chinese International Students’ Racialised Desire on Mobile Dating Applications."
 collection: publications
 category: manuscripts
 permalink: /publication/datingpreference-paper-title-number-1

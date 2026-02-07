@@ -1,8 +1,10 @@
 ---
 date: 2026-02-07
+layout: single
 title: "Teaching"
 permalink: /teaching/
 ---
+
 I have served as a teaching assistant and guest lecturer for several undergraduate and postgraduate courses at Durham University. My teaching experience includes both seminars, lectures, and curriculum support.
 
 ### Courses taught

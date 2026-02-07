@@ -1,6 +1,5 @@
 ---
-title: "Teaching experience"
-collection: teaching
+title: "Teaching"
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "School of Education, Durham University"

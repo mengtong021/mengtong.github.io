@@ -13,6 +13,7 @@ My doctoral research explores how Chinese international students perceive and ex
 
 I received my MA degree in TESOL with Distinction from [University College London (UCL)](https://www.ucl.ac.uk/) in 2019 and my BA in English language and literature from [Taiyuan University of Technology](https://english.tyut.edu.cn/) in 2018.
 
+
 # Selected Experiences
 ## 📖Publications
 Based on my PhD research, I have published two articles: one on [female Chinese international students’ racial preferences on dating apps](https://journals.sagepub.com/doi/10.1177/13607804251320487) in Sociological Research Online, and another on their [online self-presentation](https://www.tandfonline.com/doi/full/10.1080/14680777.2025.2514793) in Feminist Media Studies.

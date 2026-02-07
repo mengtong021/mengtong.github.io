@@ -9,16 +9,13 @@
 
 main:
   - title: "Research"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
+    url: /publications/ 
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "CV"
-    url: /cv/
+    url: /files/Tong MENG_CV.pdf
     
   # - title: "CV"
   #   url: /cv-json/

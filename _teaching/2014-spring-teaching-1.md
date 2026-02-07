@@ -1,9 +1,6 @@
 ---
 title: "Teaching"
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "School of Education, Durham University"
-location: "Durham, UK"
+permalink: /teaching/
 ---
 I have served as a teaching assistant and guest lecturer for several undergraduate and postgraduate courses at Durham University. My teaching experience includes both seminars, lectures, and curriculum support.
 

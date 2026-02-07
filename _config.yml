@@ -23,7 +23,7 @@ repository               : "mengtong021/mengtong021.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo-TM.JPG"
+  avatar           : "/images/tmphoto.JPG"
   name             : "Tong Meng"
   pronouns         : "she/her"
   location         : "China"

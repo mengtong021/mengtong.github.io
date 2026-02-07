@@ -16,7 +16,7 @@ I received my MA degree in TESOL with Distinction from [University College Londo
 
 # Selected Experiences
 ## 📖Publications
-Based on my PhD research, I have published two articles: one on [female Chinese international students’ racial preferences on dating apps](https://journals.sagepub.com/doi/10.1177/13607804251320487) in Sociological Research Online, and another on their [online self-presentation](https://www.tandfonline.com/doi/full/10.1080/14680777.2025.2514793) in Feminist Media Studies.
+Based on my PhD research, I have published two articles: one on [female Chinese international students’ racial preferences on dating apps](https://journals.sagepub.com/doi/10.1177/13607804251320487) in _Sociological Research Online_, and another on their [online self-presentation](https://www.tandfonline.com/doi/full/10.1080/14680777.2025.2514793) in _Feminist Media Studies_.
 
 My research on Chinese international students' self-presentation on dating apps has been reported in [Sixth Tone](https://www.sixthtone.com/news/1017417).
 

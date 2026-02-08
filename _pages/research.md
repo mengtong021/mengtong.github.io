@@ -9,8 +9,6 @@ My research consists of several lines. One strand focuses on **transnational mig
 
 Below, I introduce my doctoral thesis and related publications.
 
----
-
 ## PhD Thesis
 
 ### *Intimacy and the Use of Mobile Dating Applications: A Study of Chinese International Students’ Intimate Lives in the UK*

@@ -10,7 +10,7 @@ Below, I introduce my doctoral thesis and related publications.
 ---
 ## PhD Thesis
 
-[### Intimacy and the Use of Mobile Dating Applications: A Study of Chinese International Students’ Intimate Lives in the UK](https://etheses.dur.ac.uk/16329/)
+### [Intimacy and the Use of Mobile Dating Applications: A Study of Chinese International Students’ Intimate Lives in the UK](https://etheses.dur.ac.uk/16329/)
 
 My doctoral thesis investigates how UK-based Chinese international students engage with MDAs and navigate dating and intimacy in a transnational context. Specifically, this research addresses the following questions: 1) Why and how do Chinese international students use MDAs in the UK? 2) How do these students perceive and practise dating, both on MDAs and offline, in the UK? 3) How do experiences with MDAs and intimate relationships shape their lives during their stay in the UK?
 

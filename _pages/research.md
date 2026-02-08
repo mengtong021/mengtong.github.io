@@ -22,15 +22,17 @@ My doctoral thesis investigates how UK-based Chinese international students enga
 3. How do experiences with MDAs and intimate relationships shape their lives during their stay in the UK?
 
 Between January 2022 and March 2023, I conducted two rounds of semi-structured interviews with 49 Chinese international students.
+
 ---
-This research provides the first extensive examination of Chinese international students’ intimate lives in the UK and makes significant contributions at **theoretical, methodological, empirical, and practical** levels.
+This research provides the first extensive examination of Chinese international students’ intimate lives in the UK and makes significant contributions at theoretical, methodological, empirical, and practical levels.
 
-Theretically, the study extends Gomes’s concept of *transience* by integrating it with Green’s *sexual field* framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of **habitus, capital, and field** to the study of intimate relationships in transnational contexts.
+Theretically, the study extends Gomes’s concept of *transience* by integrating it with Green’s *sexual field* framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of habitus, capital, and field to the study of intimate relationships in transnational contexts.
 
-Methodologically, this research adopts a longitudinal qualitative design, this research combines **semi-structured interviews** with **scroll-back and walkthrough methods**. These methods encourage participants to reflect on their dating app practices in greater depth, enabling the collection of richer and more detailed empirical data.
+Methodologically, this research adopts a longitudinal qualitative design, this research combines semi-structured interviews with scroll-back and walkthrough methods. These methods encourage participants to reflect on their dating app practices in greater depth, enabling the collection of richer and more detailed empirical data.
 
 Practically, the findings offer important implications for higher education institutions seeking to better support international students. Beyond academic performance and English language development, students’ intimate relationships and the challenges they encounter in this domain deserve greater attention, given their significant impact on wellbeing and everyday life.
 ---
+
 Based on the main findings of my doctoral research, the following articles have been published:
 - Meng, T. (2025). “Fair-skinned, young and slim” or “Kardashian-style”: UK-based female Chinese international students’ self-presentation on mobile dating applications. *Feminist Media Studies*, 1–18.  
   https://doi.org/10.1080/14680777.2025.2514793

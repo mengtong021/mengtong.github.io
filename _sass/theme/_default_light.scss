@@ -1,3 +1,19 @@
+/* 1. 引入高级衬线字体 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+
+/* 2. 在 :root 之前定义字体变量 */
+$serif-font-family: "Source Serif 4", Georgia, serif;
+
+/* 3. 强制全局应用 */
+body {
+  font-family: $serif-font-family !important;
+  font-size: 17px; 
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif-font-family !important;
+}
 /* ==========================================================================
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */

@@ -20,12 +20,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222 !important;
 }
 
-/* 4. 导航栏美化：商务沉稳风 + 淡红色背景 */
+/* 4. 导航栏美化：商务沉稳风 + 淡红色背景 (去优化版) */
 .masthead {
-  background-color: $soft-red-bg !important; /* 背景应用淡红 */
-  border-bottom: 1px solid #eee0e0 !important; /* 浅红边框线 */
+  background-color: $soft-red-bg !important; 
+  /* --- 关键修改：去掉所有边框和突兀的灰色线 --- */
+  border: none !important;              
+  border-bottom: none !important; 
+  box-shadow: none !important; 
+  /* -------------------------------------- */
   padding: 0.8rem 0 !important; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.02) !important;
 }
 
 .masthead__menu-item {

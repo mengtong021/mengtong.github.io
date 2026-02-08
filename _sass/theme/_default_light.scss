@@ -20,47 +20,47 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222 !important;
 }
 
-/* 4. 导航栏美化：右对齐 + 淡红色背景 + 去除边框 */
+/* 4. 导航栏优化：彻底移除灰色长方形，实现精致细红线 */
+
+/* 移除最外层容器的背景和阴影 */
 .masthead {
-  background-color: $soft-red-bg !important; 
-  border: none !important;              
-  border-bottom: none !important; 
-  box-shadow: none !important; 
-  padding: 0.4rem 0 !important; 
+  background-color: #ffffff !important; /* 整体背景设为纯白，消除灰色感 */
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  padding: 0.1rem 0 !important; /* 极窄高度 */
 }
 
-/* 关键：将导航菜单推向右侧 */
-.masthead__menu {
-  margin-left: auto !important; /* 这一行让菜单自动靠右 */
-  display: flex !important;
+/* 关键：移除内部容器 greedy-nav 的灰色背景和边框 */
+.greedy-nav {
+  background: transparent !important; /* 彻底透明，移除灰色长方形的核心 */
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  width: 100% !important;
 }
 
-.masthead__menu-item {
-  margin-left: 2rem !important; /* 保持菜单项之间的间距 */
-}
-
+/* 导航文字及其下划线逻辑 */
 .masthead__menu-item a {
   font-family: $serif-font-family !important;
   font-weight: 500 !important;
   color: #5a4f4f !important;
-  letter-spacing: 0.3px !important;
   text-decoration: none !important;
   transition: all 0.3s ease !important;
-  text-transform: none !important;
+  
+  /* 预留底部边框空间 */
+  padding-bottom: 2px; 
+  border-bottom: 2px solid transparent; /* 默认透明 */
 }
 
-/* 悬停效果保持不变 */
-.masthead__menu-item a:hover {
+/* 悬停以及选中页面时，只显示窄窄的红线 */
+.masthead__menu-item a:hover,
+.masthead__menu-item--active a,
+.masthead__menu-item.active a {
   color: $accent-red !important; 
-  text-decoration: underline !important;
-  text-underline-offset: 6px !important;
-}
-
-/* 确保移动端也能正常显示 */
-.greedy-nav {
-  background: transparent !important;
-  border: none !important;
-  width: 100% !important; /* 确保占满宽度 */
+  background-color: transparent !important; /* 确保没有色块背景 */
+  border-bottom: 2px solid $accent-red !important; /* 这就是你想要的窄红线 */
+  text-decoration: none !important;
 }
 
 /* ==========================================================================

@@ -4,7 +4,6 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
 My research consists of several lines. One strand focuses on **transnational migration**, with particular attention to **Chinese international students** and their **digital intimate lives** in host countries. I am especially interested in how **transient migration status** shapes students’ attitudes towards love and intimacy, and how their intimate lives are mediated by **mobile dating applications (MDAs)**.
 
 Below, I introduce my doctoral thesis and related publications.
@@ -13,18 +12,11 @@ Below, I introduce my doctoral thesis and related publications.
 
 ### *Intimacy and the Use of Mobile Dating Applications: A Study of Chinese International Students’ Intimate Lives in the UK*
 
-My doctoral thesis investigates how UK-based Chinese international students engage with MDAs and navigate dating and intimacy in a transnational context. Specifically, this research addresses the following questions:
+My doctoral thesis investigates how UK-based Chinese international students engage with MDAs and navigate dating and intimacy in a transnational context. Specifically, this research addresses the following questions: 1) Why and how do Chinese international students use MDAs in the UK? 2）How do these students perceive and practise dating, both on MDAs and offline, in the UK? 3）How do experiences with MDAs and intimate relationships shape their lives during their stay in the UK?
 
-1. Why and how do Chinese international students use MDAs in the UK?  
-2. How do these students perceive and practise dating, both on MDAs and offline, in the UK?  
-3. How do experiences with MDAs and intimate relationships shape their lives during their stay in the UK?
+Between January 2022 and March 2023, I conducted two rounds of semi-structured interviews with 49 Chinese international students, facilitated by walkthrough and scroll back method.
 
-Between January 2022 and March 2023, I conducted two rounds of semi-structured interviews with 49 Chinese international students.
-
----
-This research provides the first extensive examination of Chinese international students’ intimate lives in the UK and makes significant contributions at theoretical, methodological, empirical, and practical levels.
-
-Theoretically, the study extends Gomes’s concept of transience by integrating it with Green’s sexual field framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of habitus, capital, and field to the study of intimate relationships in transnational contexts.
+This research provides the first extensive examination of Chinese international students’ intimate lives in the UK and makes significant contributions at theoretical, methodological, empirical, and practical levels.Theoretically, the study extends Gomes’s concept of transience by integrating it with Green’s sexual field framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of habitus, capital, and field to the study of intimate relationships in transnational contexts.
 
 Methodologically, this research adopts a longitudinal qualitative design, this research combines semi-structured interviews with scroll-back and walkthrough methods. These methods encourage participants to reflect on their dating app practices in greater depth, enabling the collection of richer and more detailed empirical data.
 

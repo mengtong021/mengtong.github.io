@@ -1,29 +1,64 @@
-/* 1. 引入高级衬线字体 */
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+/* 1. 引入高级衬线字体 - Source Serif 4 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
-/* 2. 在 :root 之前定义字体变量 */
+/* 2. 定义变量：莫兰迪淡红系 */
 $serif-font-family: "Source Serif 4", Georgia, serif;
+$soft-red-bg: #fdf5f5;    /* 极浅的淡红色背景 */
+$dusty-rose: #d6a1a1;     /* 低饱和度的玫瑰色 */
+$accent-red: #b35d5d;     /* 悬停时的深红色 */
 
 /* 3. 强制全局应用 */
 body {
   font-family: $serif-font-family !important;
   font-size: 17px; 
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #333333 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font-family !important;
+  color: #222222 !important;
 }
-/* 4. 【新增】强制最上面一栏导航栏也使用相同字体 */
-.masthead, .masthead__menu-item, .greedy-nav a, .nav__list-item a {
+
+/* 4. 导航栏美化：商务沉稳风 + 淡红色背景 */
+.masthead {
+  background-color: $soft-red-bg !important; /* 背景应用淡红 */
+  border-bottom: 1px solid #eee0e0 !important; /* 浅红边框线 */
+  padding: 0.8rem 0 !important; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.02) !important;
+}
+
+.masthead__menu-item {
+  margin-left: 1.8rem !important;
+}
+
+.masthead__menu-item a {
   font-family: $serif-font-family !important;
-  font-weight: 600 !important; /* 导航栏可以稍微加粗一点点，更好看 */
-  text-transform: none !important; /* 防止导航栏强行把字母全变成大写 */
+  font-weight: 500 !important;
+  color: #5a4f4f !important; /* 暖灰色文字，与粉红更搭 */
+  letter-spacing: 0.3px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  text-transform: none !important; /* 保持你的大小写输入 */
 }
+
+/* 鼠标悬停时的优雅效果 */
+.masthead__menu-item a:hover {
+  color: $accent-red !important; 
+  text-decoration: underline !important;
+  text-underline-offset: 6px !important;
+}
+
+/* 5. 同步修改左侧侧边栏 Follow 按钮颜色 */
+.btn--primary {
+  background-color: $accent-red !important;
+  border-color: $accent-red !important;
+  font-family: $serif-font-family !important;
+}
+
 /* ==========================================================================
-    DEFAULT THEME - LIGHT VERSION
-    ========================================================================== */
-/* Color codes used for the theme */
+    以下是原有的颜色变量（保留以维持系统正常运行）
+   ========================================================================== */
 $primary-color              : #2f7f93;
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -31,14 +66,12 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-/* Color codes used for the site */
 $danger-color               : #ee5f5b;
 $info-color                 : #2f7f93;
 $notice-color               : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 
-/* Other basic settings for the template */
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
@@ -48,7 +81,6 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #fff;
@@ -67,4 +99,3 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
 }
-

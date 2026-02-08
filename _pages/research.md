@@ -7,7 +7,7 @@ author_profile: true
 My research consists of several lines. One strand focuses on **transnational migration**, with particular attention to **Chinese international students** and their **digital intimate lives** in host countries. I am especially interested in how **transient migration status** shapes students’ attitudes towards love and intimacy, and how their intimate lives are mediated by **mobile dating applications (MDAs)**.
 
 Below, I introduce my doctoral thesis and related publications.
----
+
 ## PhD Thesis
 
 ### [Intimacy and the Use of Mobile Dating Applications: A Study of Chinese International Students’ Intimate Lives in the UK](https://etheses.dur.ac.uk/16329/)

@@ -20,43 +20,47 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222 !important;
 }
 
-/* 4. 导航栏美化：商务沉稳风 + 淡红色背景 (去优化版) */
+/* 4. 导航栏美化：右对齐 + 淡红色背景 + 去除边框 */
 .masthead {
   background-color: $soft-red-bg !important; 
-  /* --- 关键修改：去掉所有边框和突兀的灰色线 --- */
   border: none !important;              
   border-bottom: none !important; 
   box-shadow: none !important; 
-  /* -------------------------------------- */
   padding: 0.8rem 0 !important; 
 }
 
+/* 关键：将导航菜单推向右侧 */
+.masthead__menu {
+  margin-left: auto !important; /* 这一行让菜单自动靠右 */
+  display: flex !important;
+}
+
 .masthead__menu-item {
-  margin-left: 1.8rem !important;
+  margin-left: 2rem !important; /* 保持菜单项之间的间距 */
 }
 
 .masthead__menu-item a {
   font-family: $serif-font-family !important;
   font-weight: 500 !important;
-  color: #5a4f4f !important; /* 暖灰色文字，与粉红更搭 */
+  color: #5a4f4f !important;
   letter-spacing: 0.3px !important;
   text-decoration: none !important;
   transition: all 0.3s ease !important;
-  text-transform: none !important; /* 保持你的大小写输入 */
+  text-transform: none !important;
 }
 
-/* 鼠标悬停时的优雅效果 */
+/* 悬停效果保持不变 */
 .masthead__menu-item a:hover {
   color: $accent-red !important; 
   text-decoration: underline !important;
   text-underline-offset: 6px !important;
 }
 
-/* 5. 同步修改左侧侧边栏 Follow 按钮颜色 */
-.btn--primary {
-  background-color: $accent-red !important;
-  border-color: $accent-red !important;
-  font-family: $serif-font-family !important;
+/* 确保移动端也能正常显示 */
+.greedy-nav {
+  background: transparent !important;
+  border: none !important;
+  width: 100% !important; /* 确保占满宽度 */
 }
 
 /* ==========================================================================

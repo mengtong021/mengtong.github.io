@@ -14,6 +14,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font-family !important;
 }
+/* 4. 【新增】强制最上面一栏导航栏也使用相同字体 */
+.masthead, .masthead__menu-item, .greedy-nav a, .nav__list-item a {
+  font-family: $serif-font-family !important;
+  font-weight: 600 !important; /* 导航栏可以稍微加粗一点点，更好看 */
+  text-transform: none !important; /* 防止导航栏强行把字母全变成大写 */
+}
 /* ==========================================================================
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */

@@ -26,7 +26,7 @@ Between January 2022 and March 2023, I conducted two rounds of semi-structured i
 ---
 This research provides the first extensive examination of Chinese international students’ intimate lives in the UK and makes significant contributions at theoretical, methodological, empirical, and practical levels.
 
-Theretically, the study extends Gomes’s concept of *transience* by integrating it with Green’s *sexual field* framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of habitus, capital, and field to the study of intimate relationships in transnational contexts.
+Theoretically, the study extends Gomes’s concept of transience by integrating it with Green’s sexual field framework to conceptualise a **transient sexual field**. This framework highlights how international students’ transient migration status—characterised by uncertainty, opportunity, and conflict—shapes their desires and the revaluation of sexual capital in the UK. In doing so, the research expands the application of Bourdieusian concepts of habitus, capital, and field to the study of intimate relationships in transnational contexts.
 
 Methodologically, this research adopts a longitudinal qualitative design, this research combines semi-structured interviews with scroll-back and walkthrough methods. These methods encourage participants to reflect on their dating app practices in greater depth, enabling the collection of richer and more detailed empirical data.
 
@@ -39,4 +39,5 @@ Based on the main findings of my doctoral research, the following articles have 
 - Meng, T. (2025). Love in a Transient Sexual Field: Female Chinese International Students’ Racialised Desire on Mobile Dating Applications. *Sociological Research Online*, 0(0). https://doi.org/10.1177/13607804251320487
 
 Another line of my research focuses on intercultural communication and digital media platforms. I am interested in how social media influences people’s practices of intercultural communication. One project I conducted with colleagues examines the use of memes in intercultural communication during the phenomenon known as the “TikTok refugee.” This manuscript is currently under review：
-Meng, T., Qin, Y., & Liu, X. “Hi, TikTok Refugees!”: How Memes Talk in the TikTok-to-RedNote Migration. (Under Review)
+
+- Meng, T., Qin, Y., & Liu, X. “Hi, TikTok Refugees!”: How Memes Talk in the TikTok-to-RedNote Migration. (Under Review)

@@ -15,54 +15,50 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
-
 <style>
-  /* 1. 强制最外层导览栏为高级红 */
-  .masthead {
-    background-color: #a35656 !important;
-    border: none !important;
-  }
-
-  /* 2. 彻底消除中间的“白条”：把所有层级的背景都设为透明 */
-  .greedy-nav, 
+  /* 1. 强制所有层级的背景全部透明或变红 */
+  .masthead, 
   .masthead__inner-navigation, 
-  .masthead__inner-navigation ul,
-  .greedy-nav .visible-links,
-  .greedy-nav ul {
-    background-color: transparent !important;
-    background: transparent !important;
+  .greedy-nav, 
+  .greedy-nav .visible-links, 
+  .greedy-nav ul,
+  .greedy-nav li {
+    background-color: #a35656 !important; /* 统一设为红色 */
+    background: #a35656 !important;
     border: none !important;
     box-shadow: none !important;
   }
 
-  /* 3. 设置导航栏文字为白色（确保在红底上能看见） */
+  /* 2. 强制文字显示为白色，并提升堆叠层级 */
   .masthead__menu-item a, 
-  .site-title {
+  .site-title,
+  .site-title:visited,
+  .greedy-nav a {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important; /* 针对某些浏览器的强制填色 */
     font-family: "Source Serif 4", Georgia, serif !important;
-    color: #ffffff !important; 
-    font-weight: 500 !important;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 99 !important;
     text-decoration: none !important;
     border-bottom: 2px solid transparent !important;
-    padding-bottom: 4px !important;
-    transition: all 0.3s ease !important;
-    background: transparent !important; /* 防止文字自带背景 */
   }
 
-  /* 4. 悬停效果：文字稍微变亮，出现白色下划线 */
+  /* 3. 悬停效果：白色下划线 */
   .masthead__menu-item a:hover {
     color: #ffffff !important;
-    opacity: 0.8;
     border-bottom: 2px solid #ffffff !important;
+    opacity: 0.8 !important;
   }
 
-  /* 5. 激活页面（当前所在页面）的样式 */
-  .masthead__menu-item--active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
+  /* 4. 解决中间白条的最狠一招：强制清除所有背景图片和阴影 */
+  .greedy-nav::before,
+  .greedy-nav::after {
+    display: none !important;
   }
 
-  /* 6. 移动端菜单按钮颜色（三横线） */
-  .navicon, .navicon::before, .navicon::after {
-    background-color: #ffffff !important;
+  /* 5. 确保移动端折叠菜单也是红色的 */
+  .greedy-nav .hidden-links {
+    background-color: #a35656 !important;
   }
 </style>

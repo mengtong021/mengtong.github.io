@@ -61,4 +61,25 @@
   .greedy-nav .hidden-links {
     background-color: #a35656 !important;
   }
+
+  /* 3. 导航栏文字：将下划线预留位调细，并增加一点间距 */
+  .masthead__menu-item a, 
+  .site-title {
+    /* ...原有属性保持... */
+    border-bottom: 1px solid transparent !important; /* 线条变细为 1px */
+    padding-bottom: 2px !important; /* 调整文字与线之间的距离，2px-4px 比较精致 */
+  }
+
+  /* 4. 悬停效果：线条变细且颜色可以微调 */
+  .masthead__menu-item a:hover {
+    color: #ffffff !important;
+    opacity: 0.9 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important; /* 1px 细线，且带一点点透明度更高级 */
+  }
+
+  /* 5. 激活页面的下划线也要同步变细 */
+  .masthead__menu-item--active a {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important; /* 1px 细线 */
+  }
 </style>

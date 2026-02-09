@@ -41,3 +41,34 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* --- 强制覆盖：实现莫兰迪红导航栏 --- */
+
+// 1. 彻底移除灰色长方形
+.masthead, .greedy-nav {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+// 2. 导航栏文字样式（使用衬线字体）
+.masthead__menu-item a {
+  font-family: "Source Serif 4", Georgia, serif !important;
+  color: #5a4f4f !important;
+  border-bottom: 2px solid transparent !important;
+  padding-bottom: 4px !important;
+  transition: all 0.3s ease !important;
+}
+
+// 3. 悬停及激活状态的细红线
+.masthead__menu-item a:hover,
+.masthead__menu-item--active a {
+  color: #a35656 !important;
+  border-bottom: 2px solid #a35656 !important;
+  background-color: transparent !important;
+}
+
+// 4. 隐藏左侧标题的下划线
+.site-title {
+  border: none !important;
+}

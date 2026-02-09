@@ -1,5 +1,5 @@
 <style>
-  /* 1. 统一背景颜色：红色 */
+  /* 1. 导航栏背景：莫兰迪红 */
   .masthead, 
   .masthead__inner-navigation, 
   .greedy-nav, 
@@ -12,7 +12,7 @@
     box-shadow: none !important;
   }
 
-  /* 2. 基础文字样式：白色、衬线体、预留 1px 细线位 */
+  /* 2. 导航栏文字样式：白色、衬线体、1px细线 */
   .masthead__menu-item a, 
   .site-title,
   .site-title:visited,
@@ -20,65 +20,61 @@
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
     font-family: "Source Serif 4", Georgia, serif !important;
-    opacity: 1 !important;
     text-decoration: none !important;
-    /* 核心修改：线条变细为 1px，padding 增加呼吸感 */
     border-bottom: 1px solid transparent !important; 
     padding-bottom: 3px !important; 
     transition: all 0.3s ease !important;
   }
 
-  /* 3. 悬停效果：1px 细线，微微透明更精致 */
+  /* 3. 导航栏悬停与激活状态 */
   .masthead__menu-item a:hover {
     color: #ffffff !important;
     opacity: 0.9 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.7) !important;
   }
-
-  /* 4. 激活页面（当前页）：1px 实线 */
   .masthead__menu-item--active a {
-    color: #ffffff !important;
     border-bottom: 1px solid #ffffff !important;
   }
 
-  /* 5. 辅助修正：清除冗余修饰 */
-  .greedy-nav::before,
-  .greedy-nav::after {
-    display: none !important;
-  }
-  .greedy-nav .hidden-links {
-    background-color: #a35656 !important;
-  }
+  /* 4. 正文及列表页链接：改为莫兰迪红 (涵盖 Research/Publication) */
   .page__content a, 
-  .sidebar a, 
-  .archive__item-title a {
-    color: #a35656 !important; /* 变成和你导航栏一样的莫兰迪红 */
-    text-decoration: none !important; 
-    border-bottom: 1px solid rgba(163, 86, 86, 0.3) !important; /* 1px 细线下划线 */
-    transition: all 0.2s ease-in-out;
-  }
-
-/* 修改所有正文、侧边栏、以及列表页（如 Publications）的链接 */
-  .page__content a, 
-  .sidebar a, 
   .archive__item-title a,
   .list__item a,
-  .archive a {
-    color: #a35656 !important; /* 统一改为莫兰迪红 */
+  .archive a,
+  .archive__item a {
+    color: #a35656 !important;
     text-decoration: none !important; 
     border-bottom: 1px solid rgba(163, 86, 86, 0.3) !important;
     transition: all 0.2s ease-in-out;
   }
 
-  /* 悬停效果同步应用到所有列表链接 */
+  /* 正文链接悬停效果 */
   .page__content a:hover, 
-  .sidebar a:hover,
+  .archive__item-title a:hover,
   .list__item a:hover,
-  .archive a:hover {
+  .archive a:hover,
+  .archive__item a:hover {
     color: #823a3a !important; 
     border-bottom: 1px solid #823a3a !important; 
-    background-color: rgba(163, 86, 86, 0.05) !important; 
   }
+
+  /* 5. 关键修正：左侧边栏文字（Bluesky等）保持黑色 */
+  .sidebar .author__urls-wrapper a,
+  .sidebar .author__urls-wrapper span,
+  .sidebar .author__urls-wrapper i {
+    color: #333333 !important; /* 设为深灰色/黑色 */
+    -webkit-text-fill-color: #333333 !important;
+    border-bottom: none !important; /* 去掉下划线 */
+    font-weight: normal !important;
+  }
+
+  .sidebar .author__urls-wrapper a:hover {
+    color: #a35656 !important; /* 只有鼠标指上去时才变红，更有交互感 */
+  }
+
+  /* 6. 辅助修正：清除冗余 */
+  .greedy-nav::before, .greedy-nav::after { display: none !important; }
+  .greedy-nav .hidden-links { background-color: #a35656 !important; }
 </style>
 
 {% include base_path %}

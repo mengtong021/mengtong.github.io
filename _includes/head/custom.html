@@ -15,3 +15,36 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
+<style>
+  /* 1. 彻底移除导航栏的灰色背景，强制变白 */
+  .masthead, .greedy-nav {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* 2. 导航栏文字及衬线字体应用 */
+  .masthead__menu-item a {
+    font-family: "Source Serif 4", Georgia, serif !important;
+    color: #5a4f4f !important; 
+    text-decoration: none !important;
+    border-bottom: 2px solid transparent !important; 
+    padding-bottom: 4px !important;
+    transition: all 0.3s ease !important;
+  }
+
+  /* 3. 鼠标悬停及选中状态：显示莫兰迪红细线 */
+  .masthead__menu-item a:hover,
+  .masthead__menu-item--active a,
+  .masthead__menu-item.active a {
+    color: #a35656 !important; 
+    border-bottom: 2px solid #a35656 !important;
+    background-color: transparent !important;
+  }
+
+  /* 4. 特别处理：左侧标题 Tong's Homepage 不显示红线 */
+  .site-title {
+    border-bottom: none !important;
+  }
+</style>

@@ -49,6 +49,27 @@
   .greedy-nav .hidden-links {
     background-color: #a35656 !important;
   }
+  .page__content a, 
+  .sidebar a, 
+  .archive__item-title a {
+    color: #a35656 !important; /* 变成和你导航栏一样的莫兰迪红 */
+    text-decoration: none !important; 
+    border-bottom: 1px solid rgba(163, 86, 86, 0.3) !important; /* 1px 细线下划线 */
+    transition: all 0.2s ease-in-out;
+  }
+
+  .page__content a:hover, 
+  .sidebar a:hover {
+    color: #823a3a !important; 
+    border-bottom: 1px solid #823a3a !important; 
+    background-color: rgba(163, 86, 86, 0.05) !important; 
+  }
+
+  .author__urls-wrapper a, 
+  .footer__social-links a {
+    border-bottom: none !important;
+  }
+  /* --- 粘贴结束 --- */
 </style>
 
 {% include base_path %}

@@ -58,18 +58,27 @@
     transition: all 0.2s ease-in-out;
   }
 
+/* 修改所有正文、侧边栏、以及列表页（如 Publications）的链接 */
+  .page__content a, 
+  .sidebar a, 
+  .archive__item-title a,
+  .list__item a,
+  .archive a {
+    color: #a35656 !important; /* 统一改为莫兰迪红 */
+    text-decoration: none !important; 
+    border-bottom: 1px solid rgba(163, 86, 86, 0.3) !important;
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* 悬停效果同步应用到所有列表链接 */
   .page__content a:hover, 
-  .sidebar a:hover {
+  .sidebar a:hover,
+  .list__item a:hover,
+  .archive a:hover {
     color: #823a3a !important; 
     border-bottom: 1px solid #823a3a !important; 
     background-color: rgba(163, 86, 86, 0.05) !important; 
   }
-
-  .author__urls-wrapper a, 
-  .footer__social-links a {
-    border-bottom: none !important;
-  }
-  /* --- 粘贴结束 --- */
 </style>
 
 {% include base_path %}

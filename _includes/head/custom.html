@@ -12,7 +12,7 @@
     box-shadow: none !important;
   }
 
-  /* 2. 导航栏文字样式：白色、衬线体、1px细线 */
+  /* 2. 导航栏文字样式 */
   .masthead__menu-item a, 
   .site-title,
   .site-title:visited,
@@ -26,7 +26,6 @@
     transition: all 0.3s ease !important;
   }
 
-  /* 3. 导航栏悬停与激活状态 */
   .masthead__menu-item a:hover {
     color: #ffffff !important;
     opacity: 0.9 !important;
@@ -36,7 +35,7 @@
     border-bottom: 1px solid #ffffff !important;
   }
 
-  /* 4. 正文及列表页链接：改为莫兰迪红 (涵盖 Research/Publication) */
+  /* 3. 全局正文及列表页链接（Research/Publication）：莫兰迪红 */
   .page__content a, 
   .archive__item-title a,
   .list__item a,
@@ -48,7 +47,6 @@
     transition: all 0.2s ease-in-out;
   }
 
-  /* 正文链接悬停效果 */
   .page__content a:hover, 
   .archive__item-title a:hover,
   .list__item a:hover,
@@ -58,21 +56,32 @@
     border-bottom: 1px solid #823a3a !important; 
   }
 
-  /* 5. 关键修正：左侧边栏文字（Bluesky等）保持黑色 */
-  .sidebar .author__urls-wrapper a,
-  .sidebar .author__urls-wrapper span,
-  .sidebar .author__urls-wrapper i {
-    color: #333333 !important; /* 设为深灰色/黑色 */
-    -webkit-text-fill-color: #333333 !important;
-    border-bottom: none !important; /* 去掉下划线 */
-    font-weight: normal !important;
+  /* 4. 关键修正：恢复左侧边栏图标彩色，仅文字保持黑色 */
+  /* 先让链接整体不要有下划线 */
+  .sidebar .author__urls-wrapper a {
+    border-bottom: none !important;
+    text-decoration: none !important;
+  }
+
+  /* 仅让文字描述部分变黑，不干扰图标 */
+  .sidebar .author__urls-wrapper a {
+    color: #333333 !important;
+  }
+
+  /* 移除对图标 (i 标签) 的强制颜色锁定，让它读回原本的 academicicons 或 fontawesome 颜色 */
+  .sidebar .author__urls-wrapper a i,
+  .sidebar .author__urls-wrapper a span.label {
+    /* 这里不写 color: !important，浏览器就会自动使用默认彩色 */
+    -webkit-text-fill-color: initial !important; 
+    display: inline-block;
+    margin-right: 5px;
   }
 
   .sidebar .author__urls-wrapper a:hover {
-    color: #a35656 !important; /* 只有鼠标指上去时才变红，更有交互感 */
+    color: #a35656 !important; /* 悬停时文字变红 */
   }
 
-  /* 6. 辅助修正：清除冗余 */
+  /* 5. 辅助修正 */
   .greedy-nav::before, .greedy-nav::after { display: none !important; }
   .greedy-nav .hidden-links { background-color: #a35656 !important; }
 </style>

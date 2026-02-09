@@ -15,61 +15,54 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
+
 <style>
-  /* 1. 强制最外层导览栏为红色 */
+  /* 1. 强制最外层导览栏为高级红 */
   .masthead {
     background-color: #a35656 !important;
     border: none !important;
   }
 
-  /* 2. 关键：清除中间那个“白条” (greedy-nav) */
-  .greedy-nav {
-    background-color: transparent !important; /* 设为透明，让底层的红色透出来 */
+  /* 2. 彻底消除中间的“白条”：把所有层级的背景都设为透明 */
+  .greedy-nav, 
+  .masthead__inner-navigation, 
+  .masthead__inner-navigation ul,
+  .greedy-nav .visible-links,
+  .greedy-nav ul {
+    background-color: transparent !important;
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
   }
-  
-  /* 针对移动端适配，也要设为透明 */
-  .greedy-nav ul {
-    background-color: transparent !important;
-  }
 
-  /* 3. 设置导航栏文字为白色 */
-  .masthead__menu-item a {
+  /* 3. 设置导航栏文字为白色（确保在红底上能看见） */
+  .masthead__menu-item a, 
+  .site-title {
     font-family: "Source Serif 4", Georgia, serif !important;
-    color: #ffffff !important; /* 强制白色文字 */
+    color: #ffffff !important; 
     font-weight: 500 !important;
     text-decoration: none !important;
     border-bottom: 2px solid transparent !important;
     padding-bottom: 4px !important;
     transition: all 0.3s ease !important;
+    background: transparent !important; /* 防止文字自带背景 */
   }
 
-  /* 4. 网站标题 (Tong's Homepage) 也要设为白色 */
-  .site-title {
-    color: #ffffff !important;
-    text-decoration: none !important;
-  }
-
-  /* 5. 悬停效果：文字稍微变亮，出现白色下划线 */
+  /* 4. 悬停效果：文字稍微变亮，出现白色下划线 */
   .masthead__menu-item a:hover {
     color: #ffffff !important;
-    opacity: 0.8; /* 悬停时微微变透明感 */
-    border-bottom: 2px solid #ffffff !important; /* 显示白色下划线 */
+    opacity: 0.8;
+    border-bottom: 2px solid #ffffff !important;
   }
 
-  /* 6. 激活页面（当前所在页面）的样式 */
+  /* 5. 激活页面（当前所在页面）的样式 */
   .masthead__menu-item--active a {
     color: #ffffff !important;
     border-bottom: 2px solid #ffffff !important;
   }
 
-  /* 7. 修正移动端那个三横线按钮（如果显示的话） */
-  .navicon {
-    background: #ffffff !important;
-  }
-  .navicon::before, .navicon::after {
-    background: #ffffff !important;
+  /* 6. 移动端菜单按钮颜色（三横线） */
+  .navicon, .navicon::before, .navicon::after {
+    background-color: #ffffff !important;
   }
 </style>

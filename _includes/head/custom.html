@@ -16,45 +16,56 @@
 
 <!-- end custom head snippets -->
 <style>
-  /* 1. 整个导览栏设为高级莫兰迪红 */
+  /* 1. 强制最外层导览栏为红色 */
   .masthead {
-    background-color: #a35656 !important; /* 高级莫兰迪红 */
-    border-bottom: none !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    background-color: #a35656 !important;
+    border: none !important;
   }
 
-  /* 2. 内部容器也设为透明，确保红色背景露出来 */
+  /* 2. 关键：清除中间那个“白条” (greedy-nav) */
   .greedy-nav {
+    background-color: transparent !important; /* 设为透明，让底层的红色透出来 */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* 针对移动端适配，也要设为透明 */
+  .greedy-nav ul {
     background-color: transparent !important;
   }
 
-  /* 3. 导航栏文字颜色：改为白色或极浅灰，配合红色背景 */
+  /* 3. 设置导航栏文字为白色 */
   .masthead__menu-item a {
     font-family: "Source Serif 4", Georgia, serif !important;
-    color: #ffffff !important; /* 纯白文字 */
-    opacity: 0.9;
+    color: #ffffff !important; /* 强制白色文字 */
+    font-weight: 500 !important;
     text-decoration: none !important;
     border-bottom: 2px solid transparent !important;
     padding-bottom: 4px !important;
     transition: all 0.3s ease !important;
   }
 
-  /* 4. 左侧名字标题：改为白色 */
+  /* 4. 网站标题 (Tong's Homepage) 也要设为白色 */
   .site-title {
     color: #ffffff !important;
-    font-weight: bold !important;
+    text-decoration: none !important;
   }
 
-  /* 5. 鼠标悬停状态：文字变亮，下划线变白 */
-  .masthead__menu-item a:hover,
+  /* 5. 悬停效果：文字稍微变亮，出现白色下划线 */
+  .masthead__menu-item a:hover {
+    color: #ffffff !important;
+    opacity: 0.8; /* 悬停时微微变透明感 */
+    border-bottom: 2px solid #ffffff !important; /* 显示白色下划线 */
+  }
+
+  /* 6. 激活页面（当前所在页面）的样式 */
   .masthead__menu-item--active a {
     color: #ffffff !important;
-    opacity: 1;
     border-bottom: 2px solid #ffffff !important;
-    background-color: transparent !important;
   }
 
-  /* 6. 移动端菜单按钮颜色 */
+  /* 7. 修正移动端那个三横线按钮（如果显示的话） */
   .navicon {
     background: #ffffff !important;
   }

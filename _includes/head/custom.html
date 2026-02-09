@@ -15,71 +15,56 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
+
 <style>
-  /* 1. 强制所有层级的背景全部透明或变红 */
+  /* 1. 统一背景颜色：红色 */
   .masthead, 
   .masthead__inner-navigation, 
   .greedy-nav, 
   .greedy-nav .visible-links, 
   .greedy-nav ul,
   .greedy-nav li {
-    background-color: #a35656 !important; /* 统一设为红色 */
+    background-color: #a35656 !important;
     background: #a35656 !important;
     border: none !important;
     box-shadow: none !important;
   }
 
-  /* 2. 强制文字显示为白色，并提升堆叠层级 */
+  /* 2. 基础文字样式：白色、衬线体、预留 1px 细线位 */
   .masthead__menu-item a, 
   .site-title,
   .site-title:visited,
   .greedy-nav a {
     color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important; /* 针对某些浏览器的强制填色 */
+    -webkit-text-fill-color: #ffffff !important;
     font-family: "Source Serif 4", Georgia, serif !important;
     opacity: 1 !important;
-    position: relative;
-    z-index: 99 !important;
     text-decoration: none !important;
-    border-bottom: 2px solid transparent !important;
+    /* 核心修改：线条变细为 1px，padding 增加呼吸感 */
+    border-bottom: 1px solid transparent !important; 
+    padding-bottom: 3px !important; 
+    transition: all 0.3s ease !important;
   }
 
-  /* 3. 悬停效果：白色下划线 */
+  /* 3. 悬停效果：1px 细线，微微透明更精致 */
   .masthead__menu-item a:hover {
     color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-    opacity: 0.8 !important;
+    opacity: 0.9 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7) !important;
   }
 
-  /* 4. 解决中间白条的最狠一招：强制清除所有背景图片和阴影 */
+  /* 4. 激活页面（当前页）：1px 实线 */
+  .masthead__menu-item--active a {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+  }
+
+  /* 5. 辅助修正：清除冗余修饰 */
   .greedy-nav::before,
   .greedy-nav::after {
     display: none !important;
   }
-
-  /* 5. 确保移动端折叠菜单也是红色的 */
   .greedy-nav .hidden-links {
     background-color: #a35656 !important;
-  }
-
-  /* 3. 导航栏文字：将下划线预留位调细，并增加一点间距 */
-  .masthead__menu-item a, 
-  .site-title {
-    /* ...原有属性保持... */
-    border-bottom: 1px solid transparent !important; /* 线条变细为 1px */
-    padding-bottom: 2px !important; /* 调整文字与线之间的距离，2px-4px 比较精致 */
-  }
-
-  /* 4. 悬停效果：线条变细且颜色可以微调 */
-  .masthead__menu-item a:hover {
-    color: #ffffff !important;
-    opacity: 0.9 !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important; /* 1px 细线，且带一点点透明度更高级 */
-  }
-
-  /* 5. 激活页面的下划线也要同步变细 */
-  .masthead__menu-item--active a {
-    color: #ffffff !important;
-    border-bottom: 1px solid #ffffff !important; /* 1px 细线 */
   }
 </style>

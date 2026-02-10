@@ -11,7 +11,7 @@ redirect_from:
 
 My doctoral research explores how Chinese international students perceive and experience mobile dating applications, and how dating app use reshapes their understandings and practices of intimacy in transnational contexts. I am always open to conversations and collaborations with scholars working on related topics, including digital intimacy, gender, intercultural communication, migration, Bourdieu's theory and China studies.
 
-I received my MA degree in TESOL with Distinction from [UCL Institute of Education](https://www.ucl.ac.uk/ioe/) in 2019 and my BA in English language and literature from [Taiyuan University of Technology](https://english.tyut.edu.cn/) in 2018.
+I received my MA degree in TESOL with Distinction from [Institute of Education, University College London (UCL)](https://www.ucl.ac.uk/ioe/) in 2019 and my BA in English language and literature from [Taiyuan University of Technology](https://english.tyut.edu.cn/) in 2018.
 
 
 # Selected Experiences

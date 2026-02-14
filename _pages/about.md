@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-👋Hello there, I'm Tong! I hold a PhD in the Sociology of Education from [Durham University](https://www.durham.ac.uk/). My research interests include digital intimacy, dating apps, transient migration, intercultural communication, gender, Bourdieu's theory and China studies. **I am always open to conversations and collaborations with scholars working on related topics**. 
+👋Hello there, I'm Tong! I hold a PhD in the Sociology of Education from [Durham University](https://www.durham.ac.uk/). My research interests include digital intimacy, dating apps, transient migration, intercultural communication, gender, Bourdieu's theory and China studies. I am always open to conversations and collaborations with scholars working on related topics. 
 
 My work has been published in _Sociological Research Online_ and _Feminist Media Studies_. I have served as a peer reviewer for several international journals, including _Sociological Forum_, _International journal of intercultural relations_ and _Women's studies in communication_. I currently serve as an Assistant Editor of [Network for Research into Chinese Education Mobilities (NRCEM)](https://chineseedmobilities.com/).
 

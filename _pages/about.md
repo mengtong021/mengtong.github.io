@@ -11,7 +11,7 @@ redirect_from:
 
 My work has been published in _Sociological Research Online_ and _Feminist Media Studies_. I have served as a peer reviewer for several international journals, including _Sociological Forum_, _International Journal of Intercultural Relations_ and _Women's Studies in Communication_. I currently serve as an Assistant Editor of [Network for Research into Chinese Education Mobilities (NRCEM)](https://chineseedmobilities.com/).
 
-My doctoral research explores how Chinese international students perceive and experience mobile dating applications, and how dating app use reshapes their understandings and practices of intimacy in transnational contexts. I am always open to conversations and collaborations with scholars working on related topics.
+My doctoral research explores how Chinese international students perceive and experience mobile dating applications, and how dating app use reshapes their understandings and practices of intimacy in transnational contexts.
 
 I received my MA degree in TESOL with Distinction from [Institute of Education, University College London (UCL)](https://www.ucl.ac.uk/ioe/) in 2019 and my BA in English language and literature from [Taiyuan University of Technology](https://english.tyut.edu.cn/) in 2018.
 
